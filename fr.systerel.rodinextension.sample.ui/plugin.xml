@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eventb.ui.editorItems">
+      <choiceAttribute
+            class="fr.systerel.rodinextension.sample.ui.ProbabilisticAttributeManipulation"
+            expandsHorizontally="true"
+            id="fr.systerel.rodinextension.sample.ui.probabilistic"
+            required="true"
+            typeId="fr.systerel.rodinextension.sample.probabilistic">
+      </choiceAttribute>
+      <element
+            defaultColumn="0"
+            imagePath="icons/sample.gif"
+            prefix="BOUND"
+            typeId="fr.systerel.rodinextension.sample.bound">
+      </element>
+      <childRelation
+            parentTypeId="org.eventb.core.machineFile">
+         <childType
+               priority="65"
+               typeId="fr.systerel.rodinextension.sample.bound">
+         </childType>
+      </childRelation>
+      <attributeRelation
+            elementTypeId="fr.systerel.rodinextension.sample.bound">
+         <attributeReference
+               descriptionId="org.eventb.ui.expression">
+         </attributeReference>
+         <attributeReference
+               descriptionId="org.eventb.ui.comment">
+         </attributeReference>
+      </attributeRelation>
+   </extension>
+
+</plugin>
