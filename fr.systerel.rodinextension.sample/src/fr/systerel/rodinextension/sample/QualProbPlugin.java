@@ -5,7 +5,7 @@ import org.osgi.framework.BundleContext;
 
 public class QualProbPlugin implements BundleActivator {
 
-	public static final String PLUGIN_ID = null;
+	public static final String PLUGIN_ID = "fr.systerel.rodinextension.sample";
 	private static BundleContext context;
 
 	static BundleContext getContext() {

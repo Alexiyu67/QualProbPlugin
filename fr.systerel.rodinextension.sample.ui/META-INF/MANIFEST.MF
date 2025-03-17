@@ -3,6 +3,9 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Ui
 Bundle-SymbolicName: fr.systerel.rodinextension.sample.ui;singleton:=true
 Bundle-Version: 1.0.0.qualifier
+Export-Package: fr.systerel.rodinextension.sample.ui.manipulation,
+ fr.systerel.rodinextension.sample.ui.navigator,
+ fr.systerel.rodinextension.sample.ui.prettyprinter
 Require-Bundle: org.eclipse.swt,
  org.eclipse.jface,
  fr.systerel.rodinextension.sample;bundle-version="1.0.0",
