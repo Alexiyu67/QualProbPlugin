@@ -3,7 +3,8 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Qualitative Probabilistic Reasoning Plug-in
 Bundle-SymbolicName: fr.systerel.rodinextension.sample;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Export-Package: fr.systerel.rodinextension.sample
+Export-Package: fr.systerel.rodinextension.sample,
+ fr.systerel.rodinextension.sample.basis
 Bundle-Activator: fr.systerel.rodinextension.sample.QualProbPlugin
 Require-Bundle: org.eclipse.core.runtime,
  org.rodinp.core;bundle-version="1.10.0",

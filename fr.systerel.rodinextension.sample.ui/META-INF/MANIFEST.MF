@@ -10,6 +10,7 @@ Require-Bundle: org.eclipse.swt,
  org.eclipse.core.runtime;bundle-version="3.30.0",
  org.eclipse.ui;bundle-version="3.205.0",
  org.rodinp.core;bundle-version="1.10.0",
- org.eventb.core;bundle-version="3.7.0"
+ org.eventb.core;bundle-version="3.7.0",
+ org.eclipse.ui.navigator;bundle-version="3.12.200"
 Automatic-Module-Name: fr.systerel.rodinextension.sample.ui
 Bundle-RequiredExecutionEnvironment: JavaSE-23

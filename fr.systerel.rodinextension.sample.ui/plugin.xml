@@ -4,7 +4,7 @@
    <extension
          point="org.eventb.ui.editorItems">
       <choiceAttribute
-            class="fr.systerel.rodinextension.sample.ui.ProbabilisticAttributeManipulation"
+            class="fr.systerel.rodinextension.sample.ui.manipulation.ProbabilisticAttributeManipulation"
             expandsHorizontally="true"
             id="fr.systerel.rodinextension.sample.ui.probabilistic"
             required="true"
@@ -32,6 +32,24 @@
                descriptionId="org.eventb.ui.comment">
          </attributeReference>
       </attributeRelation>
+   </extension>
+   <extension
+         point="org.eclipse.ui.navigator.navigatorContent">
+      <navigatorContent
+            id="fr.systerel.rodinextension.sample.ui.boundContent"
+            name="BoundElement"
+            priority="lower">
+         <triggerPoints>
+            <instanceof
+                  value="org.eventb.core.IMachineRoot">
+            </instanceof>
+         </triggerPoints>
+         <possibleChildren>
+            <instanceof
+                  value="instanceof clause fr.systerel.rodinextension.sample.basis.IBound">
+            </instanceof>
+         </possibleChildren>
+      </navigatorContent>
    </extension>
 
 </plugin>
