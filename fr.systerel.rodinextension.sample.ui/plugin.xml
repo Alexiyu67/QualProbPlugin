@@ -13,6 +13,7 @@
       <element
             defaultColumn="0"
             imagePath="icons/sample.gif"
+            imageProvider="fr.systerel.rodinextension.sample.ui.navigator.BoundLabelProvider"
             prefix="BOUND"
             typeId="fr.systerel.rodinextension.sample.bound">
       </element>
