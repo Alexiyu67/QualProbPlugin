@@ -46,5 +46,18 @@
             parent="org.eventb.core.machineModule">
       </processorType>
    </extension>
+   <extension
+         point="org.eventb.core.configurations">
+      <configuration
+            id="qpConfig"
+            name="Qualitative Probabilistic Reasoning Plug-in Configuration">
+         <scModule
+               id="fr.systerel.rodinextension.sample.machineBoundFreeIdentsModule">
+         </scModule>
+         <scModule
+               id="fr.systerel.rodinextension.sample.machineBoundModule">
+         </scModule>
+      </configuration>
+   </extension>
 
 </plugin>
