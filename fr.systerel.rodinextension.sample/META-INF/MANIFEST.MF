@@ -13,3 +13,4 @@ Require-Bundle: org.eclipse.core.runtime,
 Bundle-RequiredExecutionEnvironment: JavaSE-23
 Automatic-Module-Name: fr.systerel.rodinextension.sample
 Bundle-ActivationPolicy: lazy
+Import-Package: org.eventb.core.ast

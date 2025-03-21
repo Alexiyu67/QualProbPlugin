@@ -31,6 +31,20 @@
             id="bound"
             name="Event-B Bound Element">
       </internalElementType>
+      <internalElementType
+            class="fr.systerel.rodinextension.sample.SCBound"
+            id="scBound"
+            name="Event-B Static Checked Bound Element">
+      </internalElementType>
+   </extension>
+   <extension
+         point="org.eventb.core.scModuleTypes">
+      <processorType
+            class="fr.systerel.rodinextension.sample.MachineBoundModule"
+            id="machineBoundModule"
+            name="Machine SC Bound Module"
+            parent="org.eventb.core.machineModule">
+      </processorType>
    </extension>
 
 </plugin>
