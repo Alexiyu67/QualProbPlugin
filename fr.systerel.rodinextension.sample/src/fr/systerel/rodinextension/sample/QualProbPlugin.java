@@ -7,6 +7,8 @@ import org.rodinp.core.RodinCore;
 public class QualProbPlugin implements BundleActivator {
 
 	public static final String PLUGIN_ID = "fr.systerel.rodinextension.sample";
+	public static boolean DEBUG = false;
+	
 	private static BundleContext context;
 
 	static BundleContext getContext() {

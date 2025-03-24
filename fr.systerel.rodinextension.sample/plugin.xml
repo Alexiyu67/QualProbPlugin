@@ -59,5 +59,14 @@
          </scModule>
       </configuration>
    </extension>
+   <extension
+         point="org.eventb.core.pogModuleTypes">
+      <processorType
+            class="fr.systerel.rodinextension.sample.pog.modules.FwdMachineBoundModule"
+            id="fwdMachineBoundModule"
+            name="Machine POG Forward Bound Module"
+            parent="org.eventb.core.machineModule">
+      </processorType>
+   </extension>
 
 </plugin>
