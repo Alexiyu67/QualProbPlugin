@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eventb.core.seqprover.reasoners">
+      <reasoner
+            class="doubleinequalityreasoner.DoubleInequalityReasoner"
+            id="dblIneq"
+            name="Double Inequality">
+      </reasoner>
+   </extension>
+
+</plugin>
